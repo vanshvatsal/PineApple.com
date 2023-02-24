@@ -1,0 +1,192 @@
+ * *::before *::after {
+     margin: 0;
+     padding: 0;
+
+ }
+
+ html {
+     font-size: 10px;
+     font-family: 'SF Pro Display', sans-serif;
+
+ }
+
+ a {
+     display: block;
+     text-decoration: none;
+ }
+
+ .container {
+     max-width: 98 rem;
+     margin: 0 auto;
+     padding: 0 2 rem;
+ }
+
+ header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 1400;
+     height: 4.5 em;
+     background-color: rgba(0, 0, 0, 0.8);
+     backdrop-filter: blur(2rem);
+
+
+ }
+
+ .nav-list {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 0 -1rem;
+
+ }
+
+ .nav-list-mobile {
+     display: none;
+ }
+
+ .nav-link {
+     font-size: 1.4rem;
+     color: white;
+     padding: 0 1rem;
+     transition: opacity 0.5s;
+
+ }
+
+ .nav-link:hover {
+     opacity: 0.7;
+
+ }
+
+ .nav-link-apple {
+     width: 1.6em;
+     height: 4.2em;
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     background: center no-repeat url('images/sample.jpeg');
+ }
+
+ .nav-link-search {
+     width: 1.6em;
+     height: 4.2em;
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     background: center no-repeat url('images/searchlogo.jpeg');
+ }
+
+ .nav-link-bag {
+     width: 1.4em;
+     height: 4.2em;
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     background: center no-repeat url('images/baglogo.png');
+ }
+
+ .iphone-14-pro {
+
+     background: url('images/hero/iphone\ 14\ pro.jpeg');
+     margin-top: 4.4rem;
+
+ }
+
+
+
+ .title {
+     color: #fff;
+     text-align: center;
+     padding-top: 5.5rem;
+
+ }
+
+ .title-heading {
+     font-size: 5.6rem;
+     line-height: 0.07413;
+     ;
+     letter-spacing: -0.005rem;
+ }
+
+ .sub-title {
+     font-size: 2.65rem;
+     margin-top: 0.6rem;
+     letter-spacing: 0.008rem;
+     font-weight: 400;
+ }
+
+ .title-price {
+     font-size: 1.7rem;
+     color: #888;
+     margin-top: -1.4200000000000017rem;
+ }
+
+ .cta {
+     text-align: center;
+     margin-top: 1.8rem;
+ }
+
+ .cta-link {
+     color: #66bbff;
+     font-size: 2.1rem;
+     display: inline-block;
+ }
+
+ .cta-link:nth-child(2) {
+     margin-left: 2.6rem;
+ }
+
+ .cta-link:hover {
+     border-bottom: 2px solid #66bbff;
+ }
+
+ .iphone-14 {
+     background: url(images/hero/iphone-14.jpg);
+     margin-top: 5.4rem;
+     background-size: 381rem 95.6rem;
+
+ }
+
+ .title-dark {
+     color: black;
+     padding: 1.2rem;
+ }
+
+ .title-heading-dark {
+     font-size: 5.6rem;
+     line-height: 0.07413;
+     margin-top: 1.2rem;
+     letter-spacing: -0.005rem;
+ }
+
+ .sub-title-dark {
+     font-size: 2.65rem;
+     margin-top: 0.6rem;
+     letter-spacing: 0.008rem;
+     font-weight: 400;
+ }
+
+
+
+
+ .watch {
+     background: url('images/hero/watch.jpeg');
+     background-size: auto 105rem;
+     color: rgb(251, 251, 247);
+ }
+
+ .hero {
+     height: 69.2rem;
+     background-position: center;
+     background-repeat: no-repeat;
+     border-top: 0.6rem solid #fff;
+     border-bottom: 0.6rem solid #fff;
+
+ }
+
+ .iphone-14-pro {
+     border-top: none;
+     background-size: auto 73.6rem;
+
+ }
